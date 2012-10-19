@@ -1,0 +1,6 @@
+require 'bundler/gem_tasks'
+
+task :prepare_ci do
+  sh 'sudo service elasticsearch stop'
+  sh 'sudo service elasticsearch start'
+end
