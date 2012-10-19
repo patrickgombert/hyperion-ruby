@@ -1,7 +1,7 @@
 require 'hyperion/elasticsearch/datastore'
 
 module Hyperion
-  module Riak
+  module Elasticsearch
     def self.new(opts={})
       Datastore.new(opts)
     end
